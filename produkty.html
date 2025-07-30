@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Produkty - Ukasik Vendor</title>
+  <style>
+    body { background: #0b0c1a; color: #e0e0ff; font-family: sans-serif; margin: 0; padding: 0; }
+    header { background: #1f1f3f; padding: 20px; text-align: center; font-size: 2rem; color: #ff6f91; }
+    nav { background: #161632; display: flex; justify-content: center; gap: 30px; padding: 15px 0; }
+    nav a { color: #ff6f91; text-decoration: none; font-weight: bold; font-size: 1.2rem; }
+    nav a:hover { color: #ff87c1; }
+    main { padding: 40px; display: grid; grid-template-columns: repeat(auto-fill, minmax(250px, 1fr)); gap: 20px; }
+    .produkt { background: #212146; padding: 20px; border-radius: 10px; text-align: center; }
+    .produkt img { max-width: 150px; border-radius: 8px; margin-bottom: 15px; }
+    .produkt h3 { margin: 0 0 10px; color: #ff6f91; }
+    .produkt button { background: #ff6f91; border: none; padding: 10px 15px; border-radius: 6px; color: white; font-weight: bold; cursor: pointer; }
+    .produkt button:hover { background: #ff87c1; }
+  </style>
+</head>
+<body>
+  <header>Ukasik Vendor</header>
+  <nav>
+    <a href="index.html">Strona Główna</a>
+    <a href="produkty.html">Produkty</a>
+    <a href="o-mnie.html">O mnie</a>
+  </nav>
+  <main>
+    <div class="produkt">
+      <img src="https://via.placeholder.com/150" alt="Buty" />
+      <h3>Buty Sportowe</h3>
+      <button>Dodaj do koszyka</button>
+    </div>
+    <div class="produkt">
+      <img src="https://via.placeholder.com/150" alt="Spodnie" />
+      <h3>Spodnie Męskie</h3>
+      <button>Dodaj do koszyka</button>
+    </div>
+    <div class="produkt">
+      <img src="https://via.placeholder.com/150" alt="Koszulka" />
+      <h3>Koszulka Oversize</h3>
+      <button>Dodaj do koszyka</button>
+    </div>
+  </main>
+</body>
+</html>
