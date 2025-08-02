@@ -1,0 +1,7 @@
+{
+  "name": "ukasik-vendor",
+  "version": "1.0.0",
+  "scripts": {
+    "start": "echo 'Static project - deploy on Vercel'"
+  }
+}
