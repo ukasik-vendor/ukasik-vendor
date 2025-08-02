@@ -1,0 +1,16 @@
+[
+  {
+    "id": 1,
+    "name": "Bluza Sp5der",
+    "price": 150,00zł
+    "description": "sprzedasz za np. 400",
+    "image": "/images/sp5der.jpg"
+  },
+  {
+    "id": 2,
+    "name": "Buty bapesta",
+    "price": 200,00
+    "description": "bape zawsze w modzie",
+    "image": "/images/bapesta.jpg"
+  }
+]
